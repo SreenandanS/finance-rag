@@ -22,6 +22,7 @@ Our application (`app.py`) continuously monitors a stream of financial news arti
 4.  **Indexes** these vectors in a real-time `DocumentStore`.
 
 This `DocumentStore` is then exposed via a `DocumentStoreServer`, providing a live REST API. Any LLM or financial agent can query this API to retrieve the most up-to-the-second relevant news to make informed decisions, directly addressing the need for "live indexing for retrieval".
+In Future work, I am working on integrating with **Ollama** to make it agentic RAG and have much more context. 
 
 ## 3. Architecture & Pathway Usage
 
