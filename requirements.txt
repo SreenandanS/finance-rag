@@ -1,0 +1,2 @@
+pathway[all]
+sentence-transformers
