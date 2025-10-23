@@ -64,4 +64,4 @@ Leave this terminal running. You will see logs from the Pathway server, indicati
 ### Step 3: Run the Demonstration (Live Demo)
 Open a new, separate PowerShell terminal. You will use this to query the server and simulate new data.
 
-See the DEMO_SCRIPT.pdf for the step-by-step commands to run in this new terminal.
+See the PATHWAY OUTPUT SCRIPT.pdf for the step-by-step commands to run in this new terminal.
