@@ -7,7 +7,7 @@
 
 ## 1. Problem Statement
 
-The challenge is to build a "production grade, streaming native, agentic system"  for the finance world. [cite_start]The core requirement is to use the Pathway framework as the streaming data engine to create applications that react to data as it arrives, moving beyond traditional batch processing.
+The challenge is to build a "production grade, streaming native, agentic system"  for the finance world. The core requirement is to use the Pathway framework as the streaming data engine to create applications that react to data as it arrives, moving beyond traditional batch processing.
 
 This solution must leverage streaming to enable features like "always up to date metrics" and "live indexes that refresh as documents and events change".
 
@@ -15,7 +15,7 @@ This solution must leverage streaming to enable features like "always up to date
 
 This project implements the foundational backend for a real-time financial insights agent. It is a **streaming-native RAG (Retrieval-Augmented Generation) pipeline** built entirely on the **Pathway framework**.
 
-[cite_start]Our application (`app.py`) continuously monitors a stream of financial news articles (simulated via `feed.jsonl`). As new articles arrive, the pipeline automatically:
+Our application (`app.py`) continuously monitors a stream of financial news articles (simulated via `feed.jsonl`). As new articles arrive, the pipeline automatically:
 1.  **Ingests** the streaming data (`headline`, `body`).
 2.  **Processes** the text by splitting it into manageable chunks (`TokenCountSplitter`).
 3.  **Embeds** each chunk into a vector representation using a local `SentenceTransformer` model.
