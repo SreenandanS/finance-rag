@@ -1,5 +1,5 @@
 
-# Real-Time Financial News RAG Agent Baseline
+# Real-Time Financial News RAG Agent Baseline Built On Pathway
 
 **Participant:** Sreenandan Shashidharan
 
